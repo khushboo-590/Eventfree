@@ -18,7 +18,7 @@ const Join = () => {
                     </svg>
                     <div className='text-black  text-[48px] leading-[130%] '>
                         <Header title="Join Us !" /></div>
-                    <p className=' max-w-[543px] font-normal text-[16px] leading-[24px] text-[#000000B2] mt-[5px] mb-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue </p>
+                    <p className=' max-w-[543px] font-normal text-[16px] leading-[100%] text-[#000000B2] mt-[5px] mb-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue </p>
                     <h3 className='font-bold  text-[35px] leading-[130%] text-black' >Sign Up</h3>
                     <form className=' mt-4 mx-auto'>
                         <div className='flex-wrap flex '>

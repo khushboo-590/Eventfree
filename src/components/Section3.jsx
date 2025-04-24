@@ -16,7 +16,7 @@ const Section3 = () => {
                     <div className="flex justify-center items-center">
                         <div className="text-center mt-[50px] w-full max-w-[708px] text-white text-[48px] leading-[130%] ">
                             <Header title="Lorem ipsum dolor sit amet, consectetur" />
-                            <p className="text-white text-[16px] mt-[40px] font-normal leading-[24px] text-center max-w-[765px]">
+                            <p className="text-white text-[16px] mt-[40px] font-normal leading-[100%] text-center max-w-[765px]">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
                                 Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec.
                             </p>

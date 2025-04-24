@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+.menu-lines {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    display: block;
+}

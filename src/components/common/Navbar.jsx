@@ -36,7 +36,7 @@ const Navbar = () => {
                         <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE]" href="/">USER NAME</a></li>
 
                         <li>
-                            <button className='bg-[#2C49FE] px-4 py-2 rounded-[23px] text-white font-semibold text-[16px] leading-[150%] hover:bg-white hover:text-[#2C49FE]'>log Out</button>
+                            <button className='bg-[#2C49FE] px-5 py-3 rounded-[23px] text-white font-semibold text-[16px] leading-[150%] hover:bg-white hover:text-[#2C49FE]'>log Out</button>
                         </li>
                     </ul>
                 </div>

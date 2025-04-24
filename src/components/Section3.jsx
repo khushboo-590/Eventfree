@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './common/Header';
-import { cardData } from './utils/helpe';
+import { cardData } from './utils/helper';
 import girlImg from '../assets/images/png/girl-img.png';
 
 const Section3 = () => {

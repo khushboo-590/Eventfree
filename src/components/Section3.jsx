@@ -3,7 +3,7 @@ import Header from './common/Header';
 import { cardData } from './utils/helpe';
 import girlImg from '../assets/images/png/girl-img.png';
 
-const Lorem = () => {
+const Section3 = () => {
     return (
         <section
             className="relative bg-cover bg-center flex flex-col min-h-[513px]"
@@ -42,6 +42,6 @@ const Lorem = () => {
     );
 };
 
-export default Lorem;
+export default Section3;
 
 

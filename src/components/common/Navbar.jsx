@@ -19,7 +19,7 @@ const Navbar = () => {
         <nav className='flex items-center mx-auto'>
             <div className='container max-w-[1320px] mx-auto '>
                 <div className="flex items-center justify-between w-full py-4">
-                    <a className="z-10" href="/">
+                    <a className="z-10 " href="/">
                         <img src={logo1} alt="logo" className="w-[300px] h-auto object-contain" />
                     </a>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './common/Header'
 import { loremData } from './utils/helpe'
-const ExplorEvent = () => {
+const Section4 = () => {
   return (
       <section className='container max-w-[1320px] bg-white pt-[153px] flex justify-center mx-auto pb-[163px]'>
           <div className=' flex flex-wrap justify-center mx-auto '>
@@ -38,4 +38,4 @@ const ExplorEvent = () => {
   )
 }
 
-export default ExplorEvent
+export default Section4

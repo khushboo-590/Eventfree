@@ -14,9 +14,16 @@ const Hero = () => {
         <div className='container max-w-[1320px] mx-auto'>
         <Navbar />
        
-          <div className='mt-[173px] text-white max-w-[1044px]  !text-[64px] leading-[120%] !sm:text-[32px] md:leading-[150%]'>
+          <div className='mt-[173px] text-white max-w-[1044px]  text-[64px] leading-[120%] !sm:text-[32px] md:leading-[150%]  '>
             <Header
-              title="Sed tortor in quisque morbi scelerisque etiam eu."
+              title="Sed tortor in quisque morbi"/>
+            <svg className=' ml-100 hidden lg:block ' width="472" height="8" viewBox="0 0 472 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2.49805" width="469.503" height="8" fill="#01C8FF" />
+              <rect width="414.561" height="8" fill="#2C49FE" />
+            </svg>
+
+
+              <Header title="scelerisque etiam eu."
             />
           </div>
 

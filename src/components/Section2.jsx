@@ -3,7 +3,7 @@ import videoImg from '../assets/images/png/video-img.png'
 import Header from './common/Header'
 import FeatureCard from './common/FeatureCard';
 
-const WhatSpecail = () => {
+const Section2 = () => {
     return (
         <section className='container max-w-[1320px] bg-white  justify-center mx-auto pt-[137px] pb-[73px]'>
             <div className=' flex flex-wrap justify-center items-center '>
@@ -77,4 +77,4 @@ const WhatSpecail = () => {
     )
 }
 
-export default WhatSpecail
+export default Section2

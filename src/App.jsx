@@ -1,20 +1,20 @@
 import React from 'react'
 import './App.css'
-import Lorem from './components/Lorem';
-import ExplorEvent from './components/ExplorEvent';
+import Section3 from './components/Section3';
 import Join from './components/Join';
-import WhatSpecail from './components/WhatSpecail';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Section2 from './components/Section2';
+import Section4 from './components/Section4';
 
 function App() {
 
   return (
     <>
       <Hero/>
-      <WhatSpecail/>
-      <Lorem />
-      <ExplorEvent />
+      <Section2/>
+      <Section3 />
+      <Section4 />
       <Join />
       <Footer/>
     </>

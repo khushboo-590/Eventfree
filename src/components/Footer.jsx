@@ -14,9 +14,9 @@ const Footer = () => {
       <section className='bg-black    '>
           <div className=' container max-w-[1320px] mx-auto pt-[90px] justify-center '>
           <div className=' flex flex-wrap justify-between p-2'>
-                  <div className=' w-full lg:w-1/4 mb-2  mx-auto'>
+                  <div className=' w-full lg:w-1/4 mb-2  mx-auto '>
                       <img src={logo} alt="logo"></img>
-                      <p className=' font-normal text-[14px] leading-[21px] text-white max-w-[346px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c </p>
+                      <p className=' font-normal text-[14px] leading-[21px] text-white max-w-[346px] mt-[36px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c </p>
                       <div className=' flex gap-[15px] mt-[24px] pb-[96px] '>
                           <a href="/" className='transition-transform duration-300 hover:scale-110 inline-block'><img src={insta} alt="insta"></img></a>
                           <a href="/" className='transition-transform duration-300 hover:scale-110 inline-block'>  <img src={face} alt="face"></img></a>

@@ -21,14 +21,9 @@ const Hero = () => {
               <rect x="2.49805" width="469.503" height="8" fill="#01C8FF" />
               <rect width="414.561" height="8" fill="#2C49FE" />
             </svg>
-
-
               <Header title="scelerisque etiam eu."
             />
           </div>
-
-
-
           <p className='font-normal text-[20px] leading-[100%] text-[#FFFFFF] max-w-[765px] mt-[18px] ff-yantramanav '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
           <div className=' flex gap-[23px] items-center mt-[33px] mb-[145px]'>
             <button className=' bg-[#2C49FE] rounded-[28px] py-3 px-5 mt-[24px] text-white hover:bg-white hover:text-[#2C49FE] font-poppin'>Get Started</button>

@@ -3,18 +3,14 @@ import logo from '../assets/images/svg/logo.svg'
 import insta from '../assets/images/svg/insta.svg'
 import face from '../assets/images/svg/face.svg'
 import twitter from '../assets/images/svg/twitter.svg'
-import footerImg from '../assets/images/png/footerImg.png'
-import footer1 from '../assets/images/png/footer1.png'
-import footer2 from '../assets/images/png/footer2.png'
-import footer3 from '../assets/images/png/footer3.png'
-import footer4 from '../assets/images/png/footer-4.png'
+import { services, events, galleryImages } from '../utils/helper';
 
 const Footer = () => {
   return (
       <section className='bg-black    '>
           <div className=' container max-w-[1320px] mx-auto pt-[90px] justify-center '>
-          <div className=' flex flex-wrap justify-between p-2'>
-                  <div className=' w-full lg:w-1/4 mb-2  mx-auto '>
+          <div className=' flex flex-wrap justify-between '>
+                  <div className=' w-full lg:w-1/4 mb-2   '>
                       <img src={logo} alt="logo"></img>
                       <p className=' font-normal text-[14px] leading-[21px] text-white max-w-[346px] mt-[36px] font-poppin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c </p>
                       <div className=' flex gap-[15px] mt-[24px] pb-[96px] '>
@@ -24,57 +20,48 @@ const Footer = () => {
 
                       </div>
                   </div>
-                  <div className=' w-full lg:w-2/4 mb-2   mx-auto'>
-                      <div className=' flex flex-wrap p-2'>
-                          <div className='w-full md:w-2/8 sm:w-3/12 mb-2'>
-                              <ul className='list-none flex flex-col '>
-                                  <li>
-                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%]  font-poppin'>SERVICES</a>
-                                  </li>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>About</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>News</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>contact</a>
-
+                
+                  <div className="w-full lg:w-2/4 mt-8 ">
+                      <div className="flex flex-wrap">
+                          <div className="w-full md:w-2/8 sm:w-3/12 lg:w-1/4">
+                              <ul>
+                                  <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">SERVICES</li>
+                                  {services.map((service, index) => (
+                                      <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
+                                          <span>{service.name} </span>
+                                      </li>
+                                  ))}
                               </ul>
                           </div>
-                          <div className='w-full md:w-2/8 sm:w-3/8 mb-2   mx-auto'>
-                              <ul className='list-none flex flex-col '>
-                                  <li>
-                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%] '>Event</a>
-                                  </li>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
-
-
+                          <div className="w-full smd:w-2/8 sm:w-3/12 lg:w-1/4">
+                              <ul>
+                                  <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">EVENTS</li>
+                                  {events.map((event, index) => (
+                                      <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
+                                          <span>{event.name}</span>
+                                      </li>
+                                  ))}
                               </ul>
                           </div>
-                          <div className='w-full md:w-4/8 sm:w-3/8 mb-2'>
-                              <ul className='list-none flex flex-col '>
-                                  <li>
-                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%] pt-2 font-poppin'>Gallery</a>
-                                  </li>
-                                  <div className='flex  gap-2 mt-4'>
-                                      <a href="/" >
-                                          <img src={footerImg}></img></a> <a href="/" >
-                                          <img src={footer1}></img></a> <a href="/" >
-                                          <img src={footer2}></img></a>
+                          <div className="w-full md:w-3/8 sm:w-4/8">
+                              <h2 className="mb-3  text-white text-[14px] font-bold leading-[100%]">GALLERY</h2>
+                              <div className="grid grid-cols-3 gap-x-4 gap-y-3">
+                                  {galleryImages.map((image, index) => (
+                                      <div key={index} className="mb-3 flex justify-center">
+                                          <img src={image.src} alt={image.alt} />
+                                      </div>
+                                  ))}
+                                  <div className="mb-3 bg-[#2D3CAE87] flex justify-center items-center">
+                                      <span className="text-xs text-center flex flex-col items-center text-white">
+                                          Show
+                                          <br />
+                                          More
+                                      </span>
                                   </div>
-                                  <div className='flex wrap gap-2 mt-2'>
-                                      <a href="/" >
-                                          <img src={footer3}></img></a> <a href="/" >
-                                          <img src={footer4}></img></a> <a href="/" >
-                                          <img src={footerImg}></img></a>
-                                  </div>
-                                  
-                                  
-
-                              </ul>
+                              </div>
                           </div>
                       </div>
-                    </div>
+                      </div>
               </div>
               <p className='text-center justify-center flex text-white text-[14px] font-normal leading-[100%]  pb-[25px] font-poppin'>© Credits of companyName belong to companyName.</p>
           </div>

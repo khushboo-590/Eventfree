@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from './common/Header'
-import { loremData } from './utils/helper'
+import { loremData } from '../utils/helper'
+import line from '../assets/images/line.png'
+
 const Section4 = () => {
     return (
         <section className='container max-w-[1320px] bg-white pt-[153px] flex justify-center mx-auto pb-[163px] '>
             <div className=' flex flex-wrap justify-center mx-auto  p-2'>
                 <div className='w-full lg:w-1/2 p-4  '>
-                    <svg width="189" height="8" viewBox="0 0 189 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" width="188" height="8" fill="#01C8FF" />
-                        <rect width="166" height="8" fill="#2C49FE" />
-                    </svg>
+                                        <img src={line } alt="line"></img>
+                    
                     <div className=' max-w-[338px] mt-[9px] text-[48px] leading-[130%]  text-black '>
                         <Header title="Explore our latest events" className="" />
                     </div>
@@ -18,8 +18,8 @@ const Section4 = () => {
                 </div>
                 <div className="w-full lg:w-1/2  p-4 ">
                     <div className="flex flex-wrap ">
-                        {loremData.map((lorem) => (
-                            <div className="w-full sm:w-1/2  p-2 font-poppin" key={lorem.id}>
+                        {loremData.map((lorem,index) => (
+                            <div className="w-full sm:w-1/2  p-2 font-poppin" key = { index }>
                                 <div className=" p-3  hover:shadow-lg transition-shadow duration-300 bg-white">
                                     <img src={lorem.img} alt={lorem.title} className="w-full h-auto mb-4" />
                                     <p className='font-normal text-[14px] leading-[100%] text-[#000000B2] m-0 pt-1 font-poppin'>{lorem.date} </p>

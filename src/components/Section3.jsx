@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './common/Header';
-import { cardData } from './utils/helper';
+import { cardData } from '../utils/helper';
 import girlImg from '../assets/images/png/girl-img.png';
 
 const Section3 = () => {
@@ -25,13 +25,13 @@ const Section3 = () => {
 
                     <div className="flex flex-wrap justify-center mt-[79px] mb-[49px]">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[40px] sm:gap-[40px] md:gap-[100px] lg:gap-[190px] p-6">
-                            {cardData.map((card, index) => (
+                            {cardData.map((item, index) => (
                                 <div key={index} className="flex flex-col items-center text-center">
                                     <div className="mb-4">
-                                        <img src={card.icon} alt={card.description} className="w-[40px] h-[40px]" />
+                                        <img src={item.icon} alt={item.description} className="w-[40px] h-[40px]" />
                                     </div>
-                                    <h3 className="font-bold text-[35px] leading-[100%] text-white font-poppin">{card.title}</h3>
-                                    <p className="font-normal text-[18px] leading-[100%] text-white pt-4 font-poppin">{card.description}</p>
+                                    <h3 className="font-bold text-[35px] leading-[100%] text-white font-poppin">{item.title}</h3>
+                                    <p className="font-normal text-[18px] leading-[100%] text-white pt-4 font-poppin">{item.description}</p>
                                 </div>
                             ))}
                         </div>

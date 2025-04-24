@@ -49,7 +49,7 @@ const Join = () => {
                             </div>
                             </div>
                         <textarea placeholder="About Me" class=" border w-full  rounded-[5px] pb-[90px] border-[#00000066] text-[#000000B2] px-2  pt-[10px] font-poppin"></textarea>
-                        <button className='bg-[#2C49FE] text-white py-2 px-2 w-full rounded-[23px] mt-[37px] hover:text-blue-300 font-poppin '>Sign up</button>
+                        <button className='bg-[#2C49FE] text-white py-[11px] px-2 w-full rounded-[23px] mt-[37px] hover:text-blue-300 font-poppin '>Sign up</button>
                         
                     </form>
                    

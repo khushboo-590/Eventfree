@@ -34,7 +34,7 @@ const Hero = () => {
             <button className=' bg-[#2C49FE] rounded-[28px] py-3 px-5 mt-[24px] text-white hover:bg-white hover:text-[#2C49FE] font-poppin'>Get Started</button>
             <a href="/" className=' font-normal text-[20px] leading-[-150%] text-white pt-5 font-poppin'>Learn more</a>
           </div>
-          <div class="flex flex-wrap items-center mb-5 py-3 relative bg-[#2C49FE] max-w-[962px]
+          <div class="flex flex-wrap items-center mb-5 py-3 relative bg-[#2C49FEBD] max-w-[962px]
             rounded-[10px] sm:rounded-[10px] md:rounded-[30px] lg:rounded-[150px]">
             <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center items-center mb-4 sm:mb-0">
               <div class="flex items-center justify-center">

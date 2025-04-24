@@ -11,10 +11,10 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-[#00000091] " />
       <div className="relative z-10 w-full">
-        <div className='container max-w-[1320px] mx-auto'>
+        <div className='container max-w-[1320px] mx-auto p-2'>
         <Navbar />
        
-          <div className='mt-[173px] text-white max-w-[1044px]  text-[64px] leading-[120%] !sm:text-[32px] md:leading-[150%]  '>
+          <div className="mt-[173px] text-white max-w-[1044px] text-[38px] sm:text-[48px] md:text-[64px] leading-[120%] sm:leading-[130%] md:leading-[150%]">
             <Header
               title="Sed tortor in quisque morbi"/>
             <svg className=' ml-100 hidden lg:block ' width="472" height="8" viewBox="0 0 472 8" fill="none" xmlns="http://www.w3.org/2000/svg">

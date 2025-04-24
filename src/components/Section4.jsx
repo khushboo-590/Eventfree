@@ -3,8 +3,8 @@ import Header from './common/Header'
 import { loremData } from './utils/helpe'
 const Section4 = () => {
   return (
-      <section className='container max-w-[1320px] bg-white pt-[153px] flex justify-center mx-auto pb-[163px]'>
-          <div className=' flex flex-wrap justify-center mx-auto '>
+      <section className='container max-w-[1320px] bg-white pt-[153px] flex justify-center mx-auto pb-[163px] '>
+          <div className=' flex flex-wrap justify-center mx-auto  p-2'>
               <div className='w-full lg:w-1/2 p-4  '>
                   <svg width="189" height="8" viewBox="0 0 189 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect x="1" width="188" height="8" fill="#01C8FF" />

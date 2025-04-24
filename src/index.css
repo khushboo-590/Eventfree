@@ -4,9 +4,12 @@
 @import "tailwindcss";
 
 
- body {
+ .font-poppin {
 font-family: "Poppins", sans-serif;} 
 
 .ff-yantramanav {
     font-family: "yantramanav", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
 }

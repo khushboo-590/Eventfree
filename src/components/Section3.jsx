@@ -14,9 +14,9 @@ const Section3 = () => {
             <div className="relative z-10 w-full">
                 <div className="container max-w-[1320px] mx-auto">
                     <div className="flex justify-center items-center">
-                        <div className="text-center mt-[50px] w-full max-w-[708px] text-white text-[48px] leading-[130%] ">
+                        <div className="text-center mt-[50px] w-full max-w-[708px] text-white text-[48px] leading-[130%] font-poppin ">
                             <Header title="Lorem ipsum dolor sit amet, consectetur" />
-                            <p className="text-white text-[16px] mt-[40px] font-normal leading-[100%] text-center max-w-[765px]">
+                            <p className="text-white text-[16px] mt-[40px] font-normal leading-[100%] text-center max-w-[765px] font-poppin">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
                                 Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec.
                             </p>
@@ -30,8 +30,8 @@ const Section3 = () => {
                                     <div className="mb-4">
                                         <img src={card.icon} alt={card.description} className="w-[40px] h-[40px]" />
                                     </div>
-                                    <h3 className="font-bold text-[35px] leading-[100%] text-white">{card.title}</h3>
-                                    <p className="font-normal text-[18px] leading-[100%] text-white pt-4">{card.description}</p>
+                                    <h3 className="font-bold text-[35px] leading-[100%] text-white font-poppin">{card.title}</h3>
+                                    <p className="font-normal text-[18px] leading-[100%] text-white pt-4 font-poppin">{card.description}</p>
                                 </div>
                             ))}
                         </div>

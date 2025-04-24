@@ -14,7 +14,7 @@ const Hero = () => {
         <div className='container max-w-[1320px] mx-auto p-2'>
         <Navbar />
        
-          <div className="mt-[173px] text-white max-w-[1044px] text-[38px] sm:text-[48px] md:text-[64px] leading-[120%] sm:leading-[130%] md:leading-[150%]">
+          <div className="mt-[173px] text-white max-w-[1044px] text-[38px] sm:text-[48px] md:text-[64px] leading-[120%] sm:leading-[130%] md:leading-[150%] font-poppin">
             <Header
               title="Sed tortor in quisque morbi"/>
             <svg className=' ml-100 hidden lg:block ' width="472" height="8" viewBox="0 0 472 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,8 +31,8 @@ const Hero = () => {
 
           <p className='font-normal text-[20px] leading-[100%] text-[#FFFFFF] max-w-[765px] mt-[18px] ff-yantramanav '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
           <div className=' flex gap-[23px] items-center mt-[33px] mb-[145px]'>
-            <button className=' bg-[#2C49FE] rounded-[28px] py-3 px-5 mt-[24px] text-white hover:bg-white hover:text-[#2C49FE]'>Get Started</button>
-            <a href="/" className=' font-normal text-[20px] leading-[-150%] text-white pt-5'>Learn more</a>
+            <button className=' bg-[#2C49FE] rounded-[28px] py-3 px-5 mt-[24px] text-white hover:bg-white hover:text-[#2C49FE] font-poppin'>Get Started</button>
+            <a href="/" className=' font-normal text-[20px] leading-[-150%] text-white pt-5 font-poppin'>Learn more</a>
           </div>
           <div class="flex flex-wrap items-center mb-5 py-3 relative bg-[#2C49FE] max-w-[962px]
             rounded-[10px] sm:rounded-[10px] md:rounded-[30px] lg:rounded-[150px]">
@@ -45,8 +45,8 @@ const Hero = () => {
                   </svg>
 
                 </p>
-                <p class="text-white text-[20px] font-medium leading-[100%] pt-2 pr-7 ">
-                  Location<br /><span class="text-[14px] font-normal opacity-70 leadind-[100%]">Search by city</span>
+                <p class="text-white text-[20px] font-medium leading-[100%] pt-2 pr-7  font-poppin">
+                  Location<br /><span class="text-[14px] font-normal opacity-70 leadind-[100%] font-poppin">Search by city</span>
                 </p>
                 <svg className="hidden lg:block"   width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" stroke-width="3" />
@@ -64,8 +64,8 @@ const Hero = () => {
 
 
                 </p>
-                <p class="text-white text-[20px] font-medium leading-[100%] pt-3 pr-7">
-                  Date<br /><span class="text-[14px] font-normal opacity-70 leadind-[100%]">09/23/2021</span>
+                <p class="text-white text-[20px] font-medium leading-[100%] pt-3 pr-7 font-poppin">
+                  Date<br /><span class="text-[14px] font-normal opacity-70 leadind-[100%] font-poppin">09/23/2021</span>
                 </p>
                 <svg className="hidden lg:block" width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" stroke-width="3" />
@@ -86,8 +86,8 @@ const Hero = () => {
                     <path d="M25 17.5H25.3825C25.9743 17.4999 26.5469 17.7098 26.9985 18.0923C27.4501 18.4747 27.7514 19.005 27.8487 19.5887L28.265 22.0887C28.3247 22.4469 28.3057 22.8138 28.2093 23.1639C28.1129 23.514 27.9413 23.8389 27.7066 24.116C27.4719 24.393 27.1796 24.6156 26.8501 24.7683C26.5207 24.921 26.1619 25 25.7987 25H21.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </p>
-                <p class="text-white text-[20px] font-medium leading-[100%] pt-3 pr-7">
-                  Capacity<br/><span class="text-[14px] font-normal opacity-70 leadind-[100%]">Search by city</span>
+                <p class="text-white text-[20px] font-medium leading-[100%] pt-3 pr-7 font-poppin">
+                  Capacity<br /><span class="text-[14px] font-normal opacity-70 leadind-[100%] font-poppin">Search by city</span>
                 </p>
                 <svg className="hidden lg:block" width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" stroke-width="3" />
@@ -97,7 +97,7 @@ const Hero = () => {
             </div>
 
             <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center items-center">
-              <button class="bg-white text-[#2C49FE] font-bold  text-[20px]  leading-[100%] px-6 py-5 rounded-full hover: hover:text-blue-300 ">
+              <button class="bg-white text-[#2C49FE] font-bold  text-[20px]  leading-[100%] px-6 py-5 rounded-full hover: hover:text-blue-300 font-poppin ">
                 GO CHECK
               </button>
             </div>

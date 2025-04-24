@@ -30,13 +30,13 @@ const Navbar = () => {
                     </div>
 
                     <ul className={`fixed top-0 left-0 h-screen w-full bg-black lg:static lg:h-auto lg:w-auto lg:bg-transparent flex flex-col lg:flex-row justify-center items-center gap-[60px]  p-4   z-0 ${menuOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}>
-                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE]" href="/">HOME</a></li>
-                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE]" href="/">EVENT</a></li>
-                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE]" href="/">FEED</a></li>
-                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE]" href="/">USER NAME</a></li>
+                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE] font-poppin" href="/">HOME</a></li>
+                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE] font-poppin" href="/">EVENT</a></li>
+                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE] font-poppin" href="/">FEED</a></li>
+                        <li><a className="text-white font-semibold text-[16px] leading-[100%] hover:text-[#2C49FE] font-poppin" href="/">USER NAME</a></li>
 
                         <li>
-                            <button className='bg-[#2C49FE] px-5 py-3 rounded-[23px] text-white font-semibold text-[16px] leading-[150%] hover:bg-white hover:text-[#2C49FE]'>log Out</button>
+                            <button className='bg-[#2C49FE] px-5 py-3 rounded-[23px] text-white font-semibold text-[16px] leading-[150%] hover:bg-white hover:text-[#2C49FE] font-poppin'>log Out</button>
                         </li>
                     </ul>
                 </div>

@@ -16,7 +16,7 @@ const Footer = () => {
           <div className=' flex flex-wrap justify-between p-2'>
                   <div className=' w-full lg:w-1/4 mb-2  mx-auto '>
                       <img src={logo} alt="logo"></img>
-                      <p className=' font-normal text-[14px] leading-[21px] text-white max-w-[346px] mt-[36px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c </p>
+                      <p className=' font-normal text-[14px] leading-[21px] text-white max-w-[346px] mt-[36px] font-poppin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c </p>
                       <div className=' flex gap-[15px] mt-[24px] pb-[96px] '>
                           <a href="/" className='transition-transform duration-300 hover:scale-110 inline-block'><img src={insta} alt="insta"></img></a>
                           <a href="/" className='transition-transform duration-300 hover:scale-110 inline-block'>  <img src={face} alt="face"></img></a>
@@ -29,12 +29,12 @@ const Footer = () => {
                           <div className='w-full md:w-2/8 sm:w-3/12 mb-2'>
                               <ul className='list-none flex flex-col '>
                                   <li>
-                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%] '>SERVICES</a>
+                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%]  font-poppin'>SERVICES</a>
                                   </li>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>About</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>News</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>contact</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>About</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>News</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>contact</a>
 
                               </ul>
                           </div>
@@ -43,10 +43,10 @@ const Footer = () => {
                                   <li>
                                       <a href="/" className='text-white text-[14px] font-bold leading-[100%] '>Event</a>
                                   </li>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>ullamcorper</a>
-                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE]'>ullamcorper</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
+                                  <a href="/" className='text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin'>ullamcorper</a>
 
 
                               </ul>
@@ -54,7 +54,7 @@ const Footer = () => {
                           <div className='w-full md:w-4/8 sm:w-3/8 mb-2'>
                               <ul className='list-none flex flex-col '>
                                   <li>
-                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%] pt-2'>Gallery</a>
+                                      <a href="/" className='text-white text-[14px] font-bold leading-[100%] pt-2 font-poppin'>Gallery</a>
                                   </li>
                                   <div className='flex  gap-2 mt-4'>
                                       <a href="/" >
@@ -76,7 +76,7 @@ const Footer = () => {
                       </div>
                     </div>
               </div>
-              <p className='text-center justify-center flex text-white text-[14px] font-normal leading-[100%]  pb-[25px]'>© Credits of companyName belong to companyName.</p>
+              <p className='text-center justify-center flex text-white text-[14px] font-normal leading-[100%]  pb-[25px] font-poppin'>© Credits of companyName belong to companyName.</p>
           </div>
     </section>
   )

@@ -16,10 +16,10 @@ const Section2 = () => {
                         <rect x="1" width="188" height="8" fill="#01C8FF" />
                         <rect width="166" height="8" fill="#2C49FE" />
                     </svg>
-                    <div className='leading-[100%] mt-[21px] text-[48px] "'>
+                    <div className='leading-[100%] mt-[21px] text-[48px] font-poppin "'>
                         <Header title="What make us special ?" />
                     </div>
-                    <p className='max-w-[633px] font-normal text-[16px] leading-[100%] mt-[6px] text-[#000000B2] ff-yantramanav '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
+                    <p className='max-w-[633px] font-normal text-[16px] leading-[100%] mt-[6px] text-[#000000B2] font-poppin '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
                     <div className="flex flex-wrap justify-center mt-3">
                         <FeatureCard
                             icon={

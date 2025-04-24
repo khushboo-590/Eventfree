@@ -22,7 +22,7 @@ const Join = () => {
                     <h3 className='font-bold  text-[35px] leading-[130%] text-black font-poppin' >Sign Up</h3>
                     <form className=' mt-4 mx-auto'>
                         <div className='flex-wrap flex '>
-                        <div className='md:w-1/2  w-full  mb-4 pr-2'>
+                            <div className='md:w-1/2  w-full  mb-4  md:pr-2  pr-0'>
                             <input type="text"
                                     className=" py-2 px-2 border w-full  rounded-[5px] border-[#00000066] text-[#000000B2] font-poppin"
                                 placeholder="Firstname" ></input>
@@ -37,7 +37,7 @@ const Join = () => {
                             className=" py-2 px-2  border w-full  rounded-[5px] border-[#00000066] text-[#000000B2] mb-4 font-poppin"
                             placeholder="Email Address" />
                         <div className='flex-wrap flex'>
-                            <div className='md:w-1/2  w-full  mb-4 pr-2'>
+                            <div className='md:w-1/2  w-full  mb-4  md:pr-2  pr-0'>
                                 <input type="number"
                                     className=" py-2 px-2 border w-full  rounded-[5px] border-[#00000066] text-[#000000B2] font-poppin"
                                     placeholder="Password" ></input>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Input = () => {
+    
   return (
     <div>
           <form className=' mt-4 mx-auto'>

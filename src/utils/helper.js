@@ -4,7 +4,7 @@ import headphoneIcon from '../assets/images/svg/headphone.svg';
 import cupIcon from '../assets/images/svg/cup.svg';
 import twoImg from '../assets/images/png/crad-1.png'
 import oneImg from '../assets/images/png/card-2.png'
-import shareIcon from '../assets/images/svg/Share.svg';
+import shareIcon from '../assets/images/svg/share.svg';
 import infoIcon from '../assets/images/svg/circle.svg';
 import helpIcon from '../assets/images/svg/help.svg';
 import img1 from '../assets/images/png/footerImg.png'

@@ -4,9 +4,9 @@ import headphoneIcon from '../assets/images/svg/headphone.svg';
 import cupIcon from '../assets/images/svg/cup.svg';
 import twoImg from '../assets/images/png/crad-1.png'
 import oneImg from '../assets/images/png/card-2.png'
-import ShareIcon from '../assets/images/svg/Share.svg';
-import InfoIcon from '../assets/images/svg/circle.svg';
-import HelpIcon from '../assets/images/svg/help.svg';
+import shareIcon from '../assets/images/svg/Share.svg';
+import infoIcon from '../assets/images/svg/circle.svg';
+import helpIcon from '../assets/images/svg/help.svg';
 import img1 from '../assets/images/png/footerImg.png'
 import img2 from '../assets/images/png/footer1.png'
 import img3 from '../assets/images/png/footer2.png'
@@ -60,17 +60,17 @@ export const cards = [
     {
         title: "Sharing",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
-        icon: ShareIcon,
+        icon: shareIcon,
     },
     {
         title: "Info",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
-        icon: InfoIcon,
+        icon: infoIcon,
     },
     {
         title: "Info",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
-        icon: HelpIcon,
+        icon: helpIcon,
     },
 ];
 

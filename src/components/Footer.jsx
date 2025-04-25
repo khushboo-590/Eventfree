@@ -7,8 +7,8 @@ import { services, events, galleryImages } from '../utils/helper';
 
 const Footer = () => {
   return (
-      <section className='bg-black    '>
-          <div className=' container max-w-[1320px] mx-auto pt-[90px] justify-center '>
+      <section className='bg-black'>
+          <div className=' container max-w-[1320px] mx-auto pt-[90px] justify-center p-2'>
           <div className=' flex flex-wrap justify-between '>
                   <div className=' w-full lg:w-1/4 mb-2   '>
                       <img src={logo} alt="logo"></img>
@@ -25,21 +25,22 @@ const Footer = () => {
                       <div className="flex flex-wrap">
                           <div className="w-full md:w-2/8 sm:w-3/12 lg:w-1/4">
                               <ul>
-                                  <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">SERVICES</li>
+                                  <a href="/" >    <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">SERVICES</li></a>
                                   {services.map((service, index) => (
-                                      <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
+                                      <a href="/" >    <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
                                           <span>{service.name} </span>
-                                      </li>
+                                      </li></a>
                                   ))}
                               </ul>
                           </div>
                           <div className="w-full smd:w-2/8 sm:w-3/12 lg:w-1/4">
                               <ul>
-                                  <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">EVENTS</li>
+                                  <a href="/" >       <li className="mb-3 text-white text-[14px] font-bold leading-[100%]">EVENTS</li></a>
                                   {events.map((event, index) => (
-                                      <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
+                                      <a href="/" >        <li key={index} className="my-3 text-white text-[12px] font-normal leading-[100%] mt-4 hover:text-[#2C49FE] font-poppin">
                                           <span>{event.name}</span>
                                       </li>
+                                          </a>
                                   ))}
                               </ul>
                           </div>

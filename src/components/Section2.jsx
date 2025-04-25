@@ -2,7 +2,7 @@ import React from 'react'
 import videoImg from '../assets/images/png/video-img.png'
 import Header from './common/Header'
 import { cards } from '../utils/helper'
-import line from'../assets/images/line.png'
+import line from'../assets/images/png/line.png'
 
 const Section2 = () => {
     return (

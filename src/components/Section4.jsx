@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './common/Header'
 import { loremData } from '../utils/helper'
-import line from '../assets/images/line.png'
+import line from '../assets/images/png/line.png'
 
 const Section4 = () => {
     return (

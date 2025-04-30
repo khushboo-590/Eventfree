@@ -12,6 +12,7 @@ import img2 from '../assets/images/png/footer1.png'
 import img3 from '../assets/images/png/footer2.png'
 import img4 from '../assets/images/png/footer3.png'
 import img5 from '../assets/images/png/footer-4.png'
+import hands from '../assets/images/png/hands.png'
 
 export const cardData = [
     {
@@ -38,18 +39,18 @@ export const cardData = [
 
 
 
- export const loremData = [
+export const loremData = [
     {
-         id: 1,
-         date:"09/23/2021",
-        img: twoImg, 
-         title: "Lorem ipsum",
-         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
+        id: 1,
+        date: "09/23/2021",
+        img: twoImg,
+        title: "Lorem ipsum",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
     },
     {
         id: 2,
-        date:"09/23/2021",
-        img: oneImg, 
+        date: "09/23/2021",
+        img: oneImg,
         title: "Lorem ipsum",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in ",
     },
@@ -95,4 +96,88 @@ export const galleryImages = [
     { src: img3, alt: 'crowd' },
     { src: img4, alt: 'lighting' },
     { src: img5, alt: 'funImage' }
+];
+
+export const form = [
+    { name: "firstname", placeholder: "Firstname" },
+    { name: "lastname", placeholder: "Lastname" }
+];
+export const number = [
+    { number: "password", placeholder: "password" },
+    { number: "confirm password", placeholder: "confirm password" }
+];
+export const email = [
+    { type: "text", placeholder: "Email Address", name: "email" }
+];
+export const message = [
+
+    { type: "textarea", placeholder: "About Me", name: "aboutMe" }
+]
+
+export const cardEvent = [
+    {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    },
+    {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    }, {
+        id: 1,
+        title: "Lorem ipsum dolar sit de",
+        date: "10/02/2022",
+        location: "Mumbai",
+        number: 1080,
+        image: hands,
+    },
 ];

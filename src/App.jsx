@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Section2 from './components/Section2';
 import Section4 from './components/Section4';
+import Hero2 from './components/Hero2';
+import EventCard from './components/EventCard';
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
       <Section3 />
       <Section4 />
       <Join />
-      <Footer/>
+      <Footer />
+      <Hero2 />
+      <EventCard/>
     </>
   )
 }
